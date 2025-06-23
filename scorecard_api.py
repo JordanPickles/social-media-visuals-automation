@@ -218,7 +218,7 @@ class ScorecardAPICall:
 
 
         # Build player ID to full name mapping
-            player_id_to_full_name = {}
+        player_id_to_full_name = {}
 
         for team in data.get("MatchTeams", []):
             for player in team.get("TeamMembers", []):
